@@ -34,3 +34,36 @@ heading{
     display: flex;
    
   }
+
+  .row {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col-lg-4 {
+    flex: auto;
+    text-align: center;
+  }
+  
+  .image {
+    margin-bottom: 2%;
+  }
+
+  .five div {
+    width: 22%;
+    padding: 10px;
+  }
+  
+  .five img {
+    width: 100%;
+  }
+  
+  br {
+    display: block;
+    margin: 0px 0;
+  }
+
+  
+
+
