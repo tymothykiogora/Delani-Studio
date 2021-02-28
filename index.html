@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     </head>
 
 <body>
-    <div class="container-fluid">
-        <header class="intro">
-           <!-- <img src="images/logo/logo.png" alt=""  class="logo"> -->
+    
+         
             <h1>WELCOME</h1>
             <h2>TO DELANI STUDIO</h2>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
@@ -19,11 +19,10 @@
             <br>
             <br>
             <a href="#description">
-            <img src="images/mouse_click.png" alt="" class="mouse" ></a>
-        </header>
-        <div class="description" id="description"> 
+            <img class = "icon" img src="IP3/assets/mouse_click.png" alt="mouse" >
+ 
           
-            <section class="ABOUT">
+            <section class="about">
                 <h1>ABOUT US</h1>
                 <p>
                     When you work with us, you are part of a team of committed collaborators. All aspects for our sotware development process and integrated, interactive and agile.    </p>
@@ -45,14 +44,15 @@
                 </section>  
                 
                 
-                
-                <h3>WHAT WE DO</h3>
-                <div class="table">
+                <div class="section4">
+                    <div class="text-section4">
+                        <h3>WHAT WE DO</h3>
+                            <div class="table">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="onCrack1">
                                 <div id="click1">
-                                    <img src="./assets/services_icons/design_icon.png">
+                                    <img src="/IP3/assets/services_icons/dev_icon.png">
                                     <div class="caption">
                                         <p>DESIGN</p>
                                     </div>
@@ -65,25 +65,25 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.col-lg-4 -->
+                        
                         <div class="col-md-4">
                             <div class="onCrack2">
                                 <div id="click2">
-                                    <img src="./assets/services_icons/dev_icon.png">
+                                    <img src="./IP3/assets/services_icons/">
                                     <div class="caption">
 
                                         <p>DEVELOPMENT</p>
                                     </div>
                                 </div>
-                                =====
+                                <div id="magic2">
                                     <h5><strong>DEVELOPMENT</strong></h5>
                                     <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
                                     <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-         
+         </a>
                                     <div class="col-md-4">
                                         <div class="onCrack3">
                                             <div id="click3">
-                                                <img src="./assets/services_icons/product_icon.png">
+                                                <img src="./IP3/assets/services_icons/product_icon.png">
                                                 <div class="caption">
                                                     <p>PROJECT MANAGEMENT</p>
                                                 </div>
@@ -104,28 +104,28 @@
                     <section class = "five d-flex flex-wrap justify-content-around">
 
                         <div class="work1">
-                            <img src="assets/portfolio/work1.jpg" alt="">
+                            <img src="/IP3/assets/portfolio/work1.jpg" alt="">
                           </div>
                           <div class="work2">
-                            <img src="assets/portfolio/work2.jpg" alt="">
+                            <img src="/IP3/assets/portfolio/work2.jpg" alt="">
                           </div>
                           <div class="work3">
-                            <img src="assets/portfolio/work3.jpg" alt="">
+                            <img src="/IP3/assets/portfolio/work3.jpg" alt="">
                           </div>
                           <div class="work4">
-                            <img src="assets/portfolio/work4.jpg" alt="">
+                            <img src="/IP3/assets/portfolio/work4.jpg" alt="">
                           </div>
                           <div class="work5">
-                            <img src="assets/portfolio/work5.jpg" alt="">
+                            <img src="/IP3/assets/portfolio/work5.jpg" alt="">
                           </div>
                           <div class="work6">
-                            <img src="assets/portfolio/work6.jpg" alt="">
+                            <img src="/IP3/assets/portfolio/work6.jpg" alt="">
                           </div>
                           <div class="work7">
-                            <img src="assets/portfolio/work7.jpg" alt="">
+                            <img src="/IP3/assets/portfolio/work7.jpg" alt="">
                           </div>
                           <div class="work8">
-                            <img src="assets/portfolio/work8.jpg" alt="">
+                            <img src="/IP3/assets/portfolio/work8.jpg" alt="">
                           </div>
 
                           <h3>CONTACT US</h3>
@@ -138,9 +138,46 @@
                               <div class="contact-btn">
                                   <button id="mySub">Submit</button>
                               </div>
+                              </form>
+
+                              <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-autohide="false">
+                                <div class="toast-header">
+                                    <img src="./assets/mouse_click.png" class="rounded mr-2" alt="...">
+                                    <strong class="mr-auto text-primary">Delani&middot;Studio</strong>
+                                    <small>Less than a minute ago</small>
+                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                </div>
+                                <div class="toast-body">
+                                    <p class="text-success"> Hello <span id="outputName"></span> we have received your message. Thank you for reaching out to us.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-autohide="false">
+                        <div class="toast-header">
+                            <img src="./assets/mouse_click.png" class="rounded mr-2" alt="...">
+                            <strong class="mr-auto text-primary">Delani&middot;Studio</strong>
+                            <small>Less than a minute ago</small>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                        </div>
+                        <div class="toast-body">
+                            <p class="text-success"> Hello <span id="outputName"></span> we have received your message. Thank you for reaching out to us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
                       
                         </section>
 
                     </section>
 
     </body>
+
+    </html>
