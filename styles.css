@@ -23,4 +23,14 @@ heading{
     text-align: center;
   }
   
+  .col-md-4{
+    flex: auto;
+    text-align: center;
   
+  }
+  
+  .row{
+  
+    display: flex;
+   
+  }
