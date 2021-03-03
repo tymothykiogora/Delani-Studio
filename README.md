@@ -31,7 +31,8 @@ Support and contact details
 If you experience issues that are related to my site and are hindering you from accessing this material, then please contact me kiogorasenior@gmail.com
 
 Live Site
-To view this site access
+To view this site access https://tymothykiogora.github.io/Delani-Studio/.
+
 
 License
 The MIT licence Copyright (c)2021 Tymothy Kiogora
