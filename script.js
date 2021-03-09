@@ -1,41 +1,43 @@
-$(document).ready(function() {
-    $(".onCrack1").click(function() {
-        $("#click1").toggle();
-        $("#magic1").toggle();
+$(document).ready(function(){
+    console.log("DOM parsed and loaded.");
+    $("#designColumn").on('click',function(){
+      $(".designToggle").toggle();
+      $(".designDescription").toggle();
     });
-    $(".onCrack2").click(function() {
-        $("#magic2").toggle();
-        $("#click2").toggle();
+
+    $("#developmentColumn").on('click',function(){
+        $(".developmentToggle").toggle();
+        $(".developmentDescription").toggle();
+      });
+      $("#productColumn").on('click',function(){
+        $(".productToggle").toggle();
+        $(".productDescription").toggle();
+      });
+      $("#hover1").hover(function(){
+        $("#toggle1").toggle();
+      });
+      $("#hover2").hover(function(){
+        $("#toggle2").toggle();
+      });
+      $("#hover3").hover(function(){
+        $("#toggle3").toggle();
+      });
+      $("#hover4").hover(function(){
+        $("#toggle4").toggle();
+      });
+      $("#hover5").hover(function(){
+        $("#toggle5").toggle();
+      });
+      $("#hover6").hover(function(){
+        $("#toggle6").toggle();
+      });
+      $("#hover7").hover(function(){
+        $("#toggle7").toggle();
+      });
+      $("#hover8").hover(function(){
+        $("#toggle8").toggle();
+      });
+      $(".clear").click(function(){
+        alert("We have received your message. Thank you for reaching out to us.");
+      });
     });
-    $(".onCrack3").click(function() {
-        $("#magic3").toggle();
-        $("#click3").toggle();
-    });
-});
-
-var btn = document.getElementById("mySubw");
-
-// When the user clicks on the button, open the modal
-btn.onclick = function(event) {
-    // Validate form for entry
-    var x = document.forms["myForm"]["contact-name"].value;
-    if (x == "") {
-        alert("Name not entered");
-        return false;
-    }
-    var y = document.forms["myForm"]["contact-email"].value;
-    if (y == "") {
-        alert("Email not entered");
-        return false;
-    }
-    var z = document.forms["myForm"]["contact-message"].value;
-    if (z == "") {
-        alert("You have no message to send");
-        return false;
-    }
-    var person1Input = $("input#contact-name").val();
-    $("span#outputName").append(person1Input);
-
-    $('.toast').toast('show');
-    event.preventDefault();
-}
