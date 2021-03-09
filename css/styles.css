@@ -1,78 +1,144 @@
-.heading{
+#welcome{
   padding: 200px;
-  background:url(/h_img.jpg);
+  background:url("/h_img.jpg");
   background-size: cover;
   text-align: center;
   color: white;
 }
 
-  .about{
-    text-align: center;
-  }
+.aboutUs{
+  text-align: center;
+  padding: 5%;
+}
+#services{
+  background-image: url("/s_image.jpg");
+  background-color: gray;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 7%;
+}
+#whatWeDo{
+  text-align: center;
+  padding: 5%;
+}
+#contactUs{
+  padding: 5%;
+  background-image: url("/c_image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}
+input{
+  background-color: transparent;
+  border: 0.5px solid white;
+  margin: 10px;
+}
+textarea{
+  background-color: transparent;
+  border: 2px solid white; 
+  margin: 30px;
+}
+::placeholder{
+  color: white;
+}
+.clear{
+  text-align: center;
+}
+#social{
+  text-align: center;
+  padding: 3%;
+}
+#footName{
+  text-align: center;
+}
+.heading{
+  font-weight: bold;
+}
+.designDescription{
+  display: none;
+  text-align: center;
+}
+.developmentDescription{
+  display: none;
+  text-align: center;
+}
+.productDescription{
+  display: none;
+  text-align: center;
+}
+#toggle1{
+  border: 5px solid white;
+  margin: 50px ;
+  font-size: 35pt;
+  padding: 30px;
+  font-weight: bold;
+  display: none;
 
-  .heading2{
-    padding: 200px;
-    background:url(/IP3/assets/backgrounds/s_image.jpg);
-    background-size: cover;
-    text-align: center;
-    color: white;
-  }
-
-  .what_we_do_heading{
-
-    text-align: center;
-  }
-  
-  .col-md-4{
-    flex: auto;
-    text-align: right;
-  
-  }
-  
-  .row{
-  
-    display: flex;
-   
-  }
-
-  .row {
-    flex: auto;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .col-lg-4 {
-    flex: auto;
-    text-align: center;
-  }
-  
-  .image {
-    margin-bottom: 2%;
-  }
-
-  .five div {
-    width: 22%;
-    padding: 10px;
-  }
-  
-  .five img {
-    width: 100%;
-  }
-  
-  .br {
-    display: block;
-    margin: 0px 0;
-  }
-
-  
-  .six {
-    text-align: center;
-    background: url(c_image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-  }
-
-  .socials img{
-    padding: 10px;
+}
+#toggle2{
+  border: 5px solid white;
+  margin: 10px;
+  padding-bottom: 100px;
+  font-size: 25pt;
+  font-weight: bold;
+  display: none;
+}
+#toggle3{
+  border: 5px solid white;
+  margin: 20px;
+  padding-bottom: 100px;
+  font-size: 25pt;
+  font-weight: bold;
+  display: none;
+}
+#toggle4{
+  border: 5px solid white;
+  margin: 20px;
+  padding-bottom: 100px;
+  font-size: 25pt;
+  font-weight: bold;
+  display: none;
+}
+#toggle5{
+  border: 5px solid white;
+  margin: 20px;
+  padding-bottom: 100px;
+  font-size: 25pt;
+  font-weight: bold;
+  display: none;
+}
+#toggle6{
+  border: 5px solid white;
+  margin: 20px;
+  padding-bottom: 100px;
+  font-size: 25pt;
+  font-weight: bold;
+  display: none;
+}
+#toggle7{
+  border: 5px solid white;
+  margin: 20px;
+  padding-bottom: 100px;
+  font-size: 25pt;
+  font-weight: bold;
+  display: none;
+}
+#toggle8{
+  border: 5px solid white;
+  margin: 20px;
+  padding-bottom: 100px;
+  font-size: 25pt;
+  font-weight: bold;
+  display: none;
+}
+.bgHover:hover{
+  background: url() rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
 }
