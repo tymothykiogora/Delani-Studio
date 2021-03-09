@@ -38,6 +38,6 @@ $(document).ready(function(){
         $("#toggle8").toggle();
       });
       $(".clear").click(function(){
-        alert("We have received your message. Thank you for reaching out to us.");
+        alert("Message received. Thanks for subscribing");
       });
     });
