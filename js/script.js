@@ -1,0 +1,43 @@
+$(document).ready(function(){
+    console.log("DOM parsed and loaded.");
+    $("#designColumn").on('click',function(){
+      $(".designToggle").toggle();
+      $(".designDescription").toggle();
+    });
+
+    $("#developmentColumn").on('click',function(){
+        $(".developmentToggle").toggle();
+        $(".developmentDescription").toggle();
+      });
+      $("#productColumn").on('click',function(){
+        $(".productToggle").toggle();
+        $(".productDescription").toggle();
+      });
+      $("#hover1").hover(function(){
+        $("#toggle1").toggle();
+      });
+      $("#hover2").hover(function(){
+        $("#toggle2").toggle();
+      });
+      $("#hover3").hover(function(){
+        $("#toggle3").toggle();
+      });
+      $("#hover4").hover(function(){
+        $("#toggle4").toggle();
+      });
+      $("#hover5").hover(function(){
+        $("#toggle5").toggle();
+      });
+      $("#hover6").hover(function(){
+        $("#toggle6").toggle();
+      });
+      $("#hover7").hover(function(){
+        $("#toggle7").toggle();
+      });
+      $("#hover8").hover(function(){
+        $("#toggle8").toggle();
+      });
+      $(".clear").click(function(){
+        alert("Message received. Thanks for subscribing");
+      });
+    });
