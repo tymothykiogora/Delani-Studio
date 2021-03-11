@@ -1,6 +1,6 @@
 #welcome{
   padding: 200px;
-  background-image: url("/h_img.jpg");
+  background-image: url("h_img.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,7 +15,7 @@
   padding: 5%;
 }
 #services{
-  background-image: url("/s_image.jpg");
+  background-image: url("s_image.jpg");
   background-color: gray;
   background-size: cover;
   background-position: center center;
@@ -30,7 +30,7 @@
 }
 #contactUs{
   padding: 5%;
-  background-image: url("/c_image.jpg");
+  background-image: url("c_image.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
